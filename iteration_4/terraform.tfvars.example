@@ -1,0 +1,7 @@
+aws_region          = "eu-west-2"
+environment         = "test"
+service             = "nginx"
+container_image     = "123456789012.dkr.ecr.eu-west-2.amazonaws.com/my-app:2026-09-24"
+enable_https        = true
+certificate_arn     = "arn:aws:acm:eu-west-2:123456789012:certificate/example"
+delection_protection = false
